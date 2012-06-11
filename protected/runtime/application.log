@@ -1,0 +1,242 @@
+2012/05/31 21:46:17 [trace] [system.CModule] Loading "log" application component
+2012/05/31 21:46:17 [trace] [system.CModule] Loading "request" application component
+2012/05/31 21:46:17 [trace] [system.CModule] Loading "urlManager" application component
+2012/05/31 21:46:17 [trace] [system.web.filters.CFilterChain] Running filter ShareController.filteraccessControl()
+2012/05/31 21:46:17 [trace] [system.CModule] Loading "user" application component
+2012/05/31 21:46:17 [trace] [system.CModule] Loading "session" application component
+2012/05/31 21:46:17 [trace] [system.CModule] Loading "messages" application component
+2012/05/31 21:46:17 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/05/31 21:46:17 [trace] [system.CModule] Loading "clientScript" application component
+2012/05/31 21:48:03 [trace] [system.CModule] Loading "log" application component
+2012/05/31 21:48:03 [trace] [system.CModule] Loading "request" application component
+2012/05/31 21:48:03 [trace] [system.CModule] Loading "urlManager" application component
+2012/05/31 21:48:03 [trace] [system.web.filters.CFilterChain] Running filter ShareController.filteraccessControl()
+2012/05/31 21:48:03 [trace] [system.CModule] Loading "user" application component
+2012/05/31 21:48:03 [trace] [system.CModule] Loading "session" application component
+2012/05/31 21:48:03 [trace] [system.CModule] Loading "messages" application component
+2012/05/31 21:48:03 [trace] [system.CModule] Loading "widgetFactory" application component
+2012/05/31 21:48:03 [trace] [system.CModule] Loading "clientScript" application component
+2012/05/31 21:48:04 [trace] [system.CModule] Loading "log" application component
+2012/05/31 21:48:04 [trace] [system.CModule] Loading "request" application component
+2012/05/31 21:48:04 [trace] [system.CModule] Loading "urlManager" application component
+2012/05/31 21:48:04 [trace] [system.web.filters.CFilterChain] Running filter ShareController.filteraccessControl()
+2012/05/31 21:48:04 [trace] [system.CModule] Loading "user" application component
+2012/05/31 21:48:04 [trace] [system.CModule] Loading "session" application component
+2012/05/31 21:48:04 [trace] [system.CModule] Loading "db" application component
+2012/05/31 21:48:04 [trace] [system.db.CDbConnection] Opening DB connection
+2012/05/31 21:48:04 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `share_links`
+2012/05/31 21:48:05 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `share_links`
+2012/05/31 21:48:05 [trace] [system.db.ar.CActiveRecord] Link.findAllByAttributes()
+2012/05/31 21:48:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_links` `t` WHERE `t`.`link_status`=:yp0 AND ( ABS(TIMESTAMPDIFF(DAY,NOW(),link_published_date)) <= 1) ORDER BY link_votes DESC, link_published_date DESC, link_date DESC LIMIT 99
+2012/05/31 21:48:07 [trace] [system.CModule] Loading "log" application component
+2012/05/31 21:48:07 [trace] [system.CModule] Loading "request" application component
+2012/05/31 21:48:07 [trace] [system.CModule] Loading "urlManager" application component
+2012/05/31 21:48:07 [trace] [system.web.filters.CFilterChain] Running filter ShareController.filteraccessControl()
+2012/05/31 21:48:07 [trace] [system.CModule] Loading "user" application component
+2012/05/31 21:48:07 [trace] [system.CModule] Loading "session" application component
+2012/05/31 21:48:07 [trace] [system.CModule] Loading "db" application component
+2012/05/31 21:48:07 [trace] [system.db.CDbConnection] Opening DB connection
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `share_links`
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `share_links`
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] Link.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_links` `t` WHERE `t`.`link_status`=:yp0 ORDER BY link_votes DESC, link_published_date DESC, link_date DESC LIMIT 99
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `share_files`
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `share_files`
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:07 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:07 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1
+2012/05/31 21:48:08 [trace] [system.db.ar.CActiveRecord] File.findAllByAttributes()
+2012/05/31 21:48:08 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `share_files` `t` WHERE `t`.`file_link_id`=:yp0 AND `t`.`file_size`=:yp1 ORDER BY file_number LIMIT 1

@@ -1,0 +1,129 @@
+
+html {
+background: url("../../images/share/bg.jpg") no-repeat scroll center 195px #000000;
+}
+body {
+background-color: #000000;
+margin: 0px;
+overflow: hidden;
+} 
+a:active { TEXT-DECORATION: none;color: #FFFFFF;}
+a:link {   TEXT-DECORATION: none;color: #FFFFFF;}
+
+#links {
+margin: 0px;
+position: absolute;
+bottom: 0px;
+width:20%;
+float:center;
+display:none;
+background-color: #000000;
+} 
+
+#text_left {
+float:left;
+color: #FFFFFF;
+}
+#text_title {
+font:11pt Simsun;
+float:left;
+width:100%;
+}
+#text_content {
+font:10pt Simsun;
+float:left;
+width:100%;
+}
+#text_right {
+font:10pt Simsun;
+float:right;
+color: #FFFFFF;
+}
+
+.container {     
+	float: bottom;
+	position:none;
+	width: 400px;
+	height: 0px;
+
+}
+
+.jssb-content p {
+	margin: 10px 10px 0 0;
+	width: auto;
+}
+
+.jssb-applied .jssb-content p {
+	margin-right: 0;
+}
+
+.jssb-focus {
+	border-color: #222;
+}
+
+.jssb-content {
+	outline: none;
+}
+
+#slider
+{
+    height: 242px;
+    width: 13px;
+    margin:0px 10px 0px 10px;
+    float:left;
+}
+#scroller
+{
+    width: 1159px;
+    height: 243px;
+    overflow:hidden;
+}
+#content
+{
+    width: 215px;
+}
+
+
+
+#siteMenuBar
+{
+position: fixed;
+top: 0px;
+left: 180px;
+width: 60%;
+height: 30px;
+margin-top: -22px;
+background-color:green;
+}
+ 
+#siteMenuBar > #menuContainer
+{
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 25px;
+padding-top: 5px;
+}
+ 
+#siteMenuBar ul
+{
+float: right;
+list-style-type: none;
+margin: 0;
+padding: 0;
+font-size: 0.9em;
+}
+ 
+#siteMenuBar li
+{
+display: inline-block;
+margin: 0;
+padding: 0 1px 0 1px;
+margin-right: 2px;
+}
+ 
+#siteMenuBar ul:first-child
+{
+float: left;
+margin-left: 10px;
+}

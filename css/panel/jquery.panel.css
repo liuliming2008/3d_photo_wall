@@ -1,0 +1,153 @@
+
+pre {
+	margin: 2em 0;
+}
+
+.mypanel {
+	background: rgba(40,120,200,0.7);
+	background-image:         repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.1) 35px, rgba(255,255,255,.1) 70px);
+	background-image:      -o-repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.1) 35px, rgba(255,255,255,.1) 70px);
+	background-image:     -ms-repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.1) 35px, rgba(255,255,255,.1) 70px);
+	background-image:    -moz-repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.1) 35px, rgba(255,255,255,.1) 70px);
+	background-image: -webkit-repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.1) 35px, rgba(255,255,255,.1) 70px);
+	border: 5px dashed #ccc;
+	border: 5px dashed rgba(40,120,200,0.5);
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px;
+	position: absolute;
+}
+
+.mypanel.right {
+	background-color: rgba(40,200,120,0.7);
+	border-color: rgba(20,180,100,0.5);
+}
+
+.ruler {
+	background: rgba(120,120,120,0.5);
+	border: 5px dashed #ccc;
+	border: 5px dashed rgba(120,120,120,0.7);
+	color: transparent;
+	font-weight: bold;
+	margin: 0;
+	padding: 10px;
+	position: absolute;
+}
+
+.pcontainer {
+	background: #eeeeee;
+	background-image:         repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+	background-image:      -o-repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+	background-image:     -ms-repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+	background-image:    -moz-repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+	background-image: -webkit-repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+	border: 1px solid #cccccc;
+	margin-bottom: 2em;
+	position: fixed;
+  left:0px;
+  top:200px;
+}
+
+.pcontainer p {
+	resize: both;
+	overflow: auto;
+}
+
+button {
+	/*display  : block;*/
+	width    : 50%;
+	font-size: 10px;
+	margin-bottom: 1px;
+}
+
+
+/**
+ * Transition classes tests
+ */
+
+.mypanel.panel-collapsing {
+	background-color: rgba(200, 141, 40, 0.7);
+	border-color: rgba(200, 141, 40, 0.7);
+}
+
+.mypanel.panel-expanding {
+	background-color: rgba(120, 40, 200, 0.7);
+	border-color: rgba(120, 40, 200, 0.7);
+}
+
+/**
+ * Custom width rulers
+ */
+.ruler[data-panel='{"width":300}'] {
+	width: 300px;
+}
+
+
+/**
+ * =============================================================================
+ * Layout
+ * =============================================================================
+ */
+
+/**
+ * Panel layout
+ */
+.panel {
+	overflow: hidden;
+	top: 0; right: 0; bottom: 0; left: 0;
+}
+
+/**
+ * =============================================================================
+ * Panel buttons
+ * =============================================================================
+ */
+
+.panel-button,
+.panel-button:hover {
+	
+	/* Image replacement */
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent;
+	     -o-user-select: none;
+	    -ms-user-select: none;
+	   -moz-user-select: none;
+	-webkit-user-select: none;
+	       -user-select: none;
+	border: none;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3AQGCCMdqn/F6AAAAOpJREFUSMfdlLENwyAQRY/IDS2tZ3BLFSU73AyMxQ6JsoEtj0FLS0vpVDg+jG2wo0TylcA9caf/P3s8XwMcqAoA4H677mpuux4ucLC+D3DOgbWWnBljwHufD9BaE4i1FrTWSUhyBO99NmRxBwHinJtBVgHD8JGFEAI45+S+rut1AGNsfKiUIgApJSDi9gi5zaMSt5qbpgEhxLKUpxXPHHbxOyXucmPb9X/+wcnyYGomYww5i3Nil503ASVZkATEzSGhsiMt9jvnvMwLiAhSSgJQSs3Aq0ssgVRLX0NEkocBUiSkePZUVpwgD96g74pUvofV+gAAAABJRU5ErkJggg==') no-repeat left top;
+	cursor: pointer;
+	display: block;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	-moz-box-sizing: content-box;
+	     box-sizing: content-box;
+}
+
+.panel-expanding  .panel-button-expand,
+.panel-collapsing .panel-button-collapse {
+	display: none;
+}
+
+/**
+ * <
+ */
+.panel-left  .panel-button-collapse,
+.panel-right .panel-button-expand {
+	background-position: left bottom;
+}
+
+/**
+ * Button positions
+ */
+.panel-left  > .panel-button-collapse { right: 0   ; top: 0 }
+.panel-left  > .panel-button-expand   { left : 100%; top: 0 }
+.panel-right > .panel-button-collapse { left : 0   ; top: 0 }
+.panel-right > .panel-button-expand   { right: 100%; top: 0 }
+
